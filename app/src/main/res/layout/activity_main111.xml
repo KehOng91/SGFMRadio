@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main111"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.kay.sgfmradio.Main111Activity"
+    android:background="#82CAFF">
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        app:srcCompat="@drawable/untitled10"
+        android:id="@+id/button1003"
+        android:scaleType="fitXY"
+        style="@android:style/Widget.Holo.Light.ImageButton"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        app:srcCompat="@drawable/untitled12"
+        android:id="@+id/button924"
+        style="@android:style/Widget.Holo.Light.ImageButton"
+        android:scaleType="fitXY"
+        android:layout_height="90dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        app:srcCompat="@drawable/untitled14"
+        android:layout_marginTop="29dp"
+        android:id="@+id/button92"
+        style="@android:style/Widget.Holo.Light.ImageButton"
+        android:scaleType="fitXY"
+        android:layout_below="@+id/button1003"
+        android:layout_alignEnd="@+id/button1003" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        app:srcCompat="@drawable/untitled17"
+        android:id="@+id/button942"
+        style="@android:style/Widget.Holo.Light.ImageButton"
+        android:scaleType="fitXY"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/button92"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        app:srcCompat="@drawable/untitled15"
+        android:id="@+id/button897"
+        style="@android:style/Widget.Holo.Light.ImageButton"
+        android:scaleType="fitXY"
+        android:layout_alignTop="@+id/button92"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        app:srcCompat="@drawable/untitled16"
+        android:id="@+id/button968"
+        android:scaleType="fitXY"
+        style="@android:style/Widget.Holo.Light.ImageButton"
+        android:layout_alignTop="@+id/button942"
+        android:layout_alignStart="@+id/button913" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        app:srcCompat="@drawable/untitled13"
+        android:id="@+id/button913"
+        style="@android:style/Widget.Holo.Light.ImageButton"
+        android:scaleType="fitXY"
+        android:layout_alignTop="@+id/button92"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        app:srcCompat="@drawable/untitled18"
+        android:id="@+id/button883"
+        style="@android:style/Widget.Holo.Light.ImageButton"
+        android:scaleType="fitXY"
+        android:layout_above="@+id/button92"
+        android:layout_alignStart="@+id/button913" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="?android:attr/homeAsUpIndicator"
+        android:id="@+id/imageView18"
+        android:layout_alignTop="@+id/Back"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="SWIPE BACK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:id="@+id/Back"
+        android:textColor="#FF0000"
+        android:layout_marginTop="89dp"
+        android:paddingTop="2dp"
+        android:layout_below="@+id/button942"
+        android:layout_toEndOf="@+id/imageView18"
+        android:paddingLeft="10dp" />
+
+</RelativeLayout>

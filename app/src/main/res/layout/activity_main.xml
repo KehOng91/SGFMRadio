@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.kay.sgfmradio.MainActivity"
+    android:background="#82CAFF">
+
+    <TextView
+        android:text="Live FM Radio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView2"
+        android:textColor="#FF0000"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textAlignment="center" />
+
+    <TextView
+        android:text="Stations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView3"
+        android:textColor="#FF0000"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:layout_below="@+id/textView2"
+        android:textAlignment="center" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        app:srcCompat="@drawable/untitled2"
+        android:id="@+id/button972"
+        style="@android:style/Widget.Holo.Light.ImageButton"
+        android:scaleType="fitXY"
+        android:layout_alignTop="@+id/button958"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        app:srcCompat="@drawable/untitled4"
+        android:id="@+id/button938"
+        android:scaleType="fitXY"
+        style="@android:style/Widget.Holo.Light.ImageButton"
+        android:layout_alignTop="@+id/button987"
+        android:layout_alignStart="@+id/button958" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        app:srcCompat="@drawable/untitled5"
+        android:id="@+id/button98"
+        style="@android:style/Widget.Holo.Light.ImageButton"
+        android:scaleType="fitXY"
+        android:layout_alignTop="@+id/button938"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        app:srcCompat="@drawable/untitled"
+        android:id="@+id/button933"
+        android:scaleType="fitXY"
+        style="@android:style/Widget.Holo.Light.ImageButton"
+        android:layout_above="@+id/textView"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="SG "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#FF0000"
+        android:textAlignment="center"
+        android:layout_below="@+id/button972"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="13dp" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        app:srcCompat="@drawable/untitled3"
+        android:id="@+id/button987"
+        android:scaleType="fitXY"
+        style="@android:style/Widget.Holo.Light.ImageButton"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="13dp" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        app:srcCompat="@drawable/untitled1"
+        android:id="@+id/button958"
+        style="@android:style/Widget.Holo.Light.ImageButton"
+        android:scaleType="fitXY"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        app:srcCompat="@drawable/untitled6"
+        android:layout_marginTop="19dp"
+        android:id="@+id/button905"
+        style="@android:style/Widget.Holo.Light.ImageButton"
+        android:scaleType="fitXY"
+        android:layout_below="@+id/button987"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        app:srcCompat="@drawable/untitled7"
+        android:id="@+id/button95"
+        style="@android:style/Widget.Holo.Light.ImageButton"
+        android:scaleType="fitXY"
+        android:layout_alignTop="@+id/button905"
+        android:layout_alignStart="@+id/button938" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        app:srcCompat="@drawable/untitled8"
+        android:id="@+id/button995"
+        style="@android:style/Widget.Holo.Light.ImageButton"
+        android:scaleType="fitXY"
+        android:layout_alignTop="@+id/button95"
+        android:layout_alignStart="@+id/button98" />
+
+    <TextView
+        android:text="------->"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView15"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textAlignment="textEnd"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="11dp" />
+
+    <TextView
+        android:text="SWIPE "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView13"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:layout_alignBaseline="@+id/textView15"
+        android:layout_alignBottom="@+id/textView15"
+        android:layout_alignStart="@+id/button995"
+        android:layout_marginStart="14dp" />
+
+    <TextView
+        android:text="(More FM Radio Stations)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView17"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#FF0000"
+        android:layout_alignBaseline="@+id/textView15"
+        android:layout_alignBottom="@+id/textView15"
+        android:layout_toStartOf="@+id/button995" />
+
+</RelativeLayout>
