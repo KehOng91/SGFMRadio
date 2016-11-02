@@ -68,6 +68,15 @@ public class Main2Activity extends AppCompatActivity {
             }
         });
 
+        Button buttonHome = (Button) findViewById(R.id.buttonHome);
+        buttonHome.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Main2Activity.this, MainActivity.class);
+                startActivity(intent);
+                player.pause();
+            }
+        });
 
         ImageButton SettingButton = (ImageButton) findViewById(R.id.SettingButton);
         SettingButton.setOnClickListener(new View.OnClickListener() {
